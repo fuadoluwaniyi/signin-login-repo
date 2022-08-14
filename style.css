@@ -45,16 +45,16 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #F2eee3;
-	background-color: #F2eee3;
-	color: black;
+	border: 1px solid white;
+	background-color:#c5ded7;
+	color: white;
 	font-size: 12px;
 	font-weight: bold;
 	padding: 12px 45px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
-	border-color: red;
+	border-color: #8598de;
 }
 
 button:active {
@@ -67,7 +67,7 @@ button:focus {
 
 button.ghost {
 	background-color: transparent;
-	border-color: red;
+	border-color:#c5ded7;
 }
 
 form {
@@ -82,7 +82,7 @@ form {
 }
 
 input {
-	background-color: #f2eee3;
+	background-color: #c5ded7;
 	border: none;
 	padding: 12px 15px;
 	margin: 8px 0;
@@ -90,7 +90,7 @@ input {
 }
 
 .container {
-	background-color: #fff;
+	background-color: #2833c9;
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
 			0 10px 10px rgba(0,0,0,0.22);
@@ -161,8 +161,8 @@ input {
 
 .overlay {
 	background: #F2eee3;
-	background: -webkit-linear-gradient(to right, #F2eee3, #e7d4c5);
-	background: linear-gradient(to right, #F2eee3, #e7d4c5);
+	background: -webkit-linear-gradient(to right, #7cc4b0, #7cc4b0);
+	background: linear-gradient(to right, #2833c9, #7cc4b0);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -216,7 +216,7 @@ input {
 }
 
 .social-container a {
-	border: 1px solid red;
+	border: 1px solid  #8598de;
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
@@ -224,5 +224,5 @@ input {
 	margin: 0 5px;
 	height: 40px;
 	width: 40px;
-	background: #f2eee3;
+	background: #c5ded7;
 }
